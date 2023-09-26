@@ -71,11 +71,6 @@ button:hover {
   margin-top: 50px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .table {
   width: 100%;
   max-width: 500px;
