@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #eee;
+}
+
+td {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #000408;
+    border-radius: 5px;
+    background-color: #0c7ec9;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.7s;
+}
+
+button:hover {
+    background-color: #1c4661;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.container_table{
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+input[type ="tel"],
+input[type ="text"]{
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border: 1px solid #000408;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0c7ec9;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+input.error {
+  color: #d61831;
+  border-color: #d61831;
+  outline-color: #d61831;
+}
+
+input.success {
+  color: #0c7ec9;
+  border-color: #0c7ec9;
+  outline-color: #0c7ec9;
+}
+
